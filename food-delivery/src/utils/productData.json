@@ -1,0 +1,29 @@
+[
+    {
+        "id" :"1",
+        "product_name":"paneer",
+        "price":"500"
+    
+    },
+    {
+        "id" :"2",
+        "product_name":"FriedRice",
+        "price":"250"
+    
+    },
+
+    {
+        "id" :"3",
+        "product_name":"paneerDoPayaja",
+        "price":"300"
+    
+    },
+    {
+        "id" :"4",
+        "product_name":"paneerlababdar",
+        "price":"450"
+    
+    }
+
+
+]

@@ -1,8 +1,9 @@
 import { ADD_PRODUCT, ADD_TO_CART, REMOVE_FROM_CART } from "./actionTypes"
-
-// const initState{
-
-// }
+import data from "../utils/productData.json"
+const initState={
+    productsArr: [...data],
+    cartItems:[]
+}
 
 const reducer = (state =initState, { type, payload }) => {
 
