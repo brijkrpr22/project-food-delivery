@@ -6,15 +6,18 @@ const initState={
 }
 
 const reducer = (state =initState, { type, payload }) => {
-
+// console.log(payload)
+console.log(state)
     switch (type) {
         case ADD_PRODUCT:
-            return {
+            return { 
                 ...state
             }
         case ADD_TO_CART:
+            const item=state.productsArr.find(item=>item.id===payload)
             return {
-                ...state
+                ...state,
+                cartItems:[...state.cartItems,item]
             }
         case REMOVE_FROM_CART:
             return {
